@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tip calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="tip__header-text">splitter</h1>
+    <section class="tip">
+      <div class="tip-wrapper">
+        <div class="tip__wrapper--inputs">
+          <div class="tip-bill">
+            <span>bill</span> <br />
+            <div class="tip__bill-inputs">
+              <span class="tip__bill-icon">$</span>
+              <input type="number" placeholder="0" class="bill-input" />
+            </div>
+          </div>
+          <div class="tip-percent">
+            <span>select tip %</span>
+            <div class="tip__percent-btns">
+              <button class="tip_btn">5%</button>
+              <button class="tip_btn">25%</button>
+              <button class="tip_btn">15%</button>
+              <div class="cus-btn">
+                <button class="tip_btn">20%</button>
+                <button class="tip_btn">25%</button>
+                <button class="tip_btn custom">custom</button>
+              </div>
+            </div>
+          </div>
+          <div class="tip-bill people-input">
+            <span>people</span> <br />
+            <div class="tip__bill-inputs">
+              <input type="text" placeholder="0" class="person" />
+            </div>
+          </div>
+        </div>
+        <div class="tip__wrapper--display">
+          <div class="tip__wrapper--display__amount">
+            <h5>
+              tip amount <br />
+              <span> / person</span>
+            </h5>
+            <span class="amount">$0.00</span>
+          </div>
+          <div class="tip__wrapper--display__person">
+            <h5>
+              total <br />
+              <span> / person</span>
+            </h5>
+            <span class="amount">0.00</span>
+          </div>
+          <div class="reset__btn">
+            <button>reset</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.tip__header-text {
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 55%;
+
+
+}
+
+.tip-wrapper {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.tip__bill-inputs {
+    width: 60%;
+    position: relative;
+    padding: 0 10px;
+
+}
+
+.tip-bill {
+    padding-bottom: 1rem;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.active {
+    background-color: black !important;
+    color: white !important;
+}
+
+.tip__bill-inputs input {
+    outline: none;
+    border: none;
+    background-color: rgb(188, 235, 255);
+    /* padding-left: .9rem; */
+    padding: 8px 4px;
+
+}
+
+.tip__bill-icon {
+    position: absolute;
+    top: 5.2px;
+
+}
+
+.tip__bill-inputs ::placeholder {
+    text-align: right;
+}
+
+
+
+.tip__percent-btns button {
+    background-color: rgb(1, 48, 51);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+
+.cus-btn {
+    padding-top: .5rem;
+
+}
+
+
+.cus-btn .custom {
+    background-color: white;
+    color: rgb(1, 48, 51);
+}
+
+.tip__wrapper--display {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(1, 48, 51);
+    padding: 20px;
+}
+
+.tip__wrapper--display>div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.tip__wrapper--display,
+.tip__wrapper--display__amount,
+.tip__wrapper--display__person {
+    padding-bottom: 3rem;
+}
+
+.tip__wrapper--display {
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.tip__wrapper--display>h5 {
+    font-size: 16;
+    font-weight: bold;
+
+}
+
+
+.tip__wrapper--display h5 span {
+
+    font-size: 14px;
+    color: rgb(205, 208, 211);
+}
+
+.tip__wrapper--display .amount {
+    color: rgb(116, 180, 212);
+}
+
+.reset__btn button {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(60, 102, 116);
+    text-transform: capitalize;
+    color: rgb(61, 77, 85);
+    cursor: pointer;
+    padding: 4px 24px;
+    border-radius: 5%;
+}
+
+.tip-percent {
+    margin: 1rem 0;
+}
